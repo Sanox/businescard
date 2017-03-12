@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/pgb.js"></script>
+		<script src="cordova.js"></script>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body onload="init()">
+		
+		<!-- My app main page -->
+		<div data-role="page" id="mainPage">
+		  <div data-role="header">
+			<!-- <h1>GUI</h1> -->
+		  </div>
+		  <div data-role="main" class="ui-content">
+			
+				<p>Imię: Mateusz</p>
+				<p>Nazwisko: Dziedzina</p>
+				<p>Miejsce studiów: Kraków</p>
+			<!-- <a href="#otherPage" class="ui-btn">Zainteresowania</a> -->
+			 <a href="#otherPage" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Zainteresowania</a>
+		  </div>
+		  <!--<div data-role="footer" data-position="fixed">
+			 <h1>Mateusz Dziedzina</h1> -->
+		  </div> 
+		</div> 
+		
+		<!-- Mobile device details page -->
+		<div data-role="page" id="otherPage">
+			<div data-role="header" data-theme="a">
+				<a href="#mainPage" class="ui-btn">Powrót</a>
+			</div>
+		<div data-role="main" class="ui-content">
+
+				<p> Góry </p>
+				<p> Góry </p>
+				<p> Góry </p>
+				<p> Góry </p>
+			
+		</div>		
+		
+	</body>
+</html>
